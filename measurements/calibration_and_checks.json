@@ -1,0 +1,66 @@
+{
+  "fps": 30.01366776255,
+  "time_zero_video_s": 10.195355076923189,
+  "platform_top_reference_px": [
+    326.0,
+    112.0
+  ],
+  "platform_base_reference_px": [
+    231.0,
+    467.0
+  ],
+  "pilot_landing_reference_px": [
+    1043.8734638808276,
+    544.5391403989045
+  ],
+  "plane_basis_pixels_per_foot": [
+    [
+      19.354130092400656,
+      3.1666666666666665
+    ],
+    [
+      1.8461700094977254,
+      -11.833333333333334
+    ]
+  ],
+  "craft_front_last_visible": {
+    "object": "Craft front edge",
+    "video_time_s": 11.694672000000129,
+    "time_after_takeoff_s": 1.4993169230769396,
+    "distance_ft": 37.42679300973641,
+    "height_ft": 2.6536189020227416,
+    "source_frame": 351,
+    "source_x_px": 733.5,
+    "source_y_px": 261.0,
+    "stabilized_x_px": 963.7661473748619,
+    "stabilized_y_px": 504.69506579898535,
+    "status": "last_visible_front_edge_partial_splash"
+  },
+  "pilot_water_entry": {
+    "object": "Pilot",
+    "video_time_s": 12.394353230769367,
+    "time_after_takeoff_s": 2.198998153846178,
+    "distance_ft": 42.0,
+    "height_ft": 0.0,
+    "source_frame": 372,
+    "source_x_px": 748.5,
+    "source_y_px": 297.0,
+    "stabilized_x_px": 1043.8734638808276,
+    "stabilized_y_px": 544.5391403989045,
+    "status": "reported_42ft_calibration_at_estimated_water_entry"
+  },
+  "craft_center_water_entry_for_comparison": {
+    "object": "Craft",
+    "source_frame": "",
+    "source_x_px": "",
+    "source_y_px": "",
+    "status": "water_entry_interpolated",
+    "video_time_s": 11.641960992169993,
+    "time_after_takeoff_s": 1.4466059152468047,
+    "distance_ft": 31.302565220634463,
+    "height_ft": 0.0,
+    "stabilized_x_px": 836.8339195060156,
+    "stabilized_y_px": 524.7898571306819
+  },
+  "checks": "Finite values, increasing time, nonnegative plotted heights, and 30/42 ft calibration anchors passed."
+}

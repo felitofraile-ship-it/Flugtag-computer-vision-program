@@ -1,0 +1,16 @@
+{
+  "start_seconds": 35.0,
+  "analysis_region": [200, 25, 750, 355],
+  "background_region": [200, 25, 750, 90],
+  "camera_correction": false,
+  "view_mode": "Top view",
+  "calibration": {
+    "point1": [443, 85],
+    "point2": [443, 331],
+    "length": 20,
+    "units": "ft",
+    "source": "User's approximate 20 ft wingspan, manually marked on overhead replay"
+  },
+  "objects": [{"label": "Aircraft", "box": [392, 83, 100, 251]}, {"label": "Pilot", "box": [412, 168, 41, 44]}],
+  "note": "Overhead tracking: aircraft and pilot have separate IDs. Press Play. Use Correct selected box if needed; open the full tracked video for the keyframe-assisted review of every angle."
+}
